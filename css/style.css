@@ -1,0 +1,16 @@
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+}
+
+.none {
+    border: none;
+}
+
