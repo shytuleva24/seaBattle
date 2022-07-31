@@ -25,9 +25,9 @@ let position = 0,
             location3 = (row + 2) + String(col);
         }
     }
-// console.log(location1);
-// console.log(location2);
-// console.log(location3);
+console.log(location1);
+console.log(location2);
+console.log(location3);
     
 while (!isSunk) {
     guess = prompt("В тебе є " + attempts + " спроб, щоб знищити корабель! (Зробіть вистріл, наприклад А1):");
@@ -78,8 +78,8 @@ while (!isSunk) {
     }
 }
 if (hits) {
-    result = Math.Floor((hits / guesses) * 100);
-    alert("Ти взяв " + guesses + " спроб, щоб потопити мый корабель, " + "це означає, що ваша точність стрільби була " + result +"%");
+    result = Math.floor((hits / guesses) * 100);
+    alert("Ти взяв " + guesses + " спроб, щоб потопити мiй корабель, " + "це означає, що ваша точність стрільби була " + result +"%");
 } else {
     alert("Ти взяв " + guesses + " спроб, щоб потопити мій корабель, і ні разу не влучив!");
 }
